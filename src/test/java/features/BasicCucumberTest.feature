@@ -1,3 +1,4 @@
+@RUN-IT
 Feature: Creating a simple scenario
 
   Scenario: creating the simplest scenario with BDD structure

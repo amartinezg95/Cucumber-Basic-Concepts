@@ -1,3 +1,4 @@
+@RUN-IT2
 Feature: Creating a simple scenario outline test
 
   Scenario Outline: creating a simple scenario outline test with BDD structure
@@ -7,3 +8,4 @@ Feature: Creating a simple scenario outline test
     Examples:
       | animal |
       | "cat"  |
+      | "dog"  |
