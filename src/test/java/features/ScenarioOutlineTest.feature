@@ -1,5 +1,5 @@
 @RUN-IT2
-Feature: Creating a simple scenario outline test
+Feature: Example with the simplest scenario outline
 
   Scenario Outline: creating a simple scenario outline test with BDD structure
     Given The user go to the shop

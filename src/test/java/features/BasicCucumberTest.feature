@@ -1,5 +1,5 @@
 @RUN-IT
-Feature: Creating a simple scenario
+Feature: Example with simples scenario
 
   Scenario: creating the simplest scenario with BDD structure
     Given The user visualize the given step

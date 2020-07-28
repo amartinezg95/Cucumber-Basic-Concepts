@@ -1,5 +1,5 @@
 @IN-PROGRESS
-Feature: This will integrate an scenario with background step and data tables
+Feature: Example with background step and data tables
 
   Also we can add some comments here with different steps that could give more info about the scenario
 
