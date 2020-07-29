@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class BackGroundDataTableSteps {
 
-    @Given("Headers used in the request")
+    @Given("Header(s) used in the request")
     public void headers_used_in_the_request(DataTable dataTable) {
         Map<String, String> headers = dataTable.asMap(String.class, String.class);
         headers.forEach((k,v)->System.out.println("header : " + k + ", value of the header : " + v));
