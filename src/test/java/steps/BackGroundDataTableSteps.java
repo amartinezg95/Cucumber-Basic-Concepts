@@ -35,4 +35,9 @@ public class BackGroundDataTableSteps {
     public void the_http_code_return(Integer number) {
         Assert.assertTrue( "the http code return "+ number,number==200);
     }
+
+    @Then("^Validate the next message: (\"([^\"]*)\"|)$")
+    public void validate_that_the_message_is_the_next_one(String message) {
+        System.out.println(message);
+    }
 }

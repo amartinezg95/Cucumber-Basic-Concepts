@@ -25,6 +25,7 @@ Feature: Example with background step and data tables
     When The get request is apply with the <user>
     Then Validate that the <user> has the animal <animal>
     And The http code return 200
+    And Validate the next message: "i want to see this written"
     Examples:
 
       | user      | animal    |
